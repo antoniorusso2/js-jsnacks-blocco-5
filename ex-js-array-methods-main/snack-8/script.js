@@ -20,4 +20,9 @@ const students = [
 ];
 
 // Recupera la classe dello studente 'Marco Lanci'
+
+//recuperare oggetto che ha come valore di una chiave marco lanci
+const student = students.find((element) => element['name'] === 'Marco Lanci');
+
+console.log(student);
 // Risultato: '3C'
